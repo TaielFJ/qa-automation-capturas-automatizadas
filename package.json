@@ -1,0 +1,18 @@
+{
+    "name": "playwright-capturas",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "test": "playwright test",
+        "headed": "playwright test --headed",
+        "debug": "PWDEBUG=1 playwright test",
+        "codegen": "playwright codegen",
+        "trace": "playwright show-trace ./test-results/**/trace.zip"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.46.0",
+        "dotenv": "^16.4.5",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.6.2"
+    }
+}
